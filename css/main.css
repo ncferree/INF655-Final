@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+  background-color: #ffffea;
+
+}
+
+h3 {
+    text-align: center;
+    padding: 1em;
+
+}
+
+h4 {
+    text-align: left;
+    padding:1em, 1em, 2em, 0em;
+}
+
+.block1 {
+  background-color: #ffed66;
+}
+
+.block2 {
+  background-color: #00cecb;
+}
+
+.block3 {
+  background-color: #d8d8d8;
+}
+
+.block4 {
+  background-color: #ff5e5b;
+}
+
+.box {
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */
+
+.submit {
+  background-color:#ffed66;
+  color: black;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.list-group-item {
+    background-color:#ffffea;
+}
+
+.about-link {
+    color: black;
+    text-align: center;
+}
+
+
+.about-link:hover {
+    color:#ff5e5b;
+}
+
+.sidebarbanner {
+    padding: 5px;
+}
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    background-color:black;
+    position: fixed;
+    height: 100%;
+    top:0;
+    overflow: auto;
+    text-size-adjust: 1em;
+  }
+
+  
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color:#ff5e5b;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #00cecb;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 400px;
+    padding: 2.25em;
+    height: 1000px;
+    margin-bottom: 30em;
+  }
+  /*Footer */
+  footer {
+      margin-top: 20em ;
+  }
+  
+
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+
